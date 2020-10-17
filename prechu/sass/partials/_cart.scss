@@ -1,0 +1,51 @@
+.cart{
+	display: block;
+	overflow: hidden;
+	margin-top: 95px;
+	height: 650px;
+}
+h2{
+	color: #6f7173;
+	display: block;
+	overflow: visible;
+	font-size: 37px;
+	font-weight: 200;
+	margin: 0 0 30px 48px;
+	@media (max-width: 767px){
+		font-size: 25px;
+		text-decoration: underline;
+		margin: 0 0 30px 40px;
+}
+}
+.holder{
+	float: left;
+}
+.text{
+	float: right;
+	width: 465px;
+	height: 300px;
+	@media (max-width: 767px){
+		width: 100%;
+}
+		span{
+			color: #6f7173;
+			display: block;
+			overflow: visible;
+			font-size: 27px;
+			margin-bottom: 35px;
+		}
+		p{
+			color: #6f7173;
+			line-height: 30px;
+			font-weight: 200;
+			@media (max-width: 767px){
+				width: 100%;
+				text-align: center;
+				line-height: 15px;
+		}
+	 }
+
+}
+.text.hide{
+	display: none;
+}

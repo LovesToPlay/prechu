@@ -1,0 +1,81 @@
+.slider {
+	display:block;
+	overflow: hidden;
+	width:100%;
+	margin:0 0 0;
+	padding:0 0 0;
+	height: 579px;
+	background-image: url(../images/bg-slider.png);
+	background-position: center;
+	background-repeat: no-repeat;
+		.layout{
+			img{
+				float: left;
+				margin: 38px 0 0 62px;
+				@media (max-width: 767px){
+					display: none;
+				}
+			}
+			.title{
+				float: right;
+				text-align: center;
+				margin: 0 auto;
+					h2{
+						margin: 155px 120px 17px 0;
+						display: block;
+						color: #e1e4e6;
+						font-size: 35px;
+						font-weight: normal;
+					}
+					.fir{
+						display: block;
+						overflow: visible;
+						font-size: 22px;
+						color: #e1e4e6;
+						text-align: center;
+						line-height: 35px;
+						margin-right: 290px;
+						@media (max-width: 767px){
+							line-height: 25px;
+							margin-right: 120px;
+						}
+					}
+					.sec{
+						display: block;
+						overflow: visible;
+						font-size: 22px;
+						color: #e1e4e6;
+						text-align: center;
+						line-height: 35px;
+						margin:0 242px 35px 0;
+						@media (max-width: 767px){
+							line-height: 25px;
+							margin-right: 203px;
+						}
+					}
+					a{
+						display: block;
+						overflow: hidden;
+						text-align: center;
+						width: 170px;
+						height: 40px;
+						background-image: url(../images/ico-sign.png);
+						background-repeat: no-repeat;
+						background-position: 8px 10px;
+						background-color: #5094f2;
+						line-height: 40px;
+						margin-left: 12px;
+							p{
+								display: block;
+								font-size: 20px;
+								color: #fff;
+								padding-left: 20px;
+							}
+					}
+					@media (max-width: 767px){
+					 	float: left;
+						margin: 0 20px 0 20px;
+					}
+			}
+		}
+}

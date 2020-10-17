@@ -1,0 +1,33 @@
+/* wrapper */
+#wrapper {
+	display:block;
+	position:relative;
+	 width:100%;
+	// max-width: 1024px;
+	margin: 0px auto;
+	height:100%;
+
+}
+.layout {
+	margin:0 auto;
+	position:relative;
+	width:1024px;
+ @media (max-width: 1023px){
+ 		width:80%;
+	 }
+	@media (max-width: 767px){
+	 	width:80%;
+ }
+ @media (max-width: 374px){
+	 width:80%;
+}
+}
+main {
+	display:block;
+	width:100%;
+	position: relative;
+}
+#content{
+	width: 100%;
+	position: relative;
+}

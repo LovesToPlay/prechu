@@ -1,0 +1,35 @@
+.slick-slider{
+  width: 100%;
+  height: 50vh;
+  position: relative;
+    .slick-prev{
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      background-color: inherit;
+      border: none;
+      width: 25px;
+      height: 63px;
+      background-image: url(../images/img-prev.png);
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      text-indent: -9999px;
+      cursor:pointer;
+    }
+    .slick-next{
+      position: absolute;
+      top: 50%;
+      right: -2%;
+      background-color: inherit;
+      border: none;
+      width: 25px;
+      height: 63px;
+      background-image: url(../images/img-next.png);
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      text-indent: -9999px;
+      cursor:pointer;
+    }
+}
